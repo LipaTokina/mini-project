@@ -6,52 +6,72 @@
     height: 100vh;
     margin: 0;
     background-color: #dfe7e6;
-  }
-  
-  .text, .text2{
+}
+
+.text, .text2 {
     color: #2a413d;
     font-size: 40px;
     font-family: "Rubik", sans-serif;
-  }
-  .text{
-    margin-bottom: 40px; /* Добавляем отступ снизу для текста */
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  
-  .text2 {
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+}
 
-  .rectangle {
+.text {
+    margin-bottom: 40px;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text2 {
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.rectangle {
     width: 600px;
-    height: 400px;
+    height: 500px;
     background-color: #b0c2bf;
-    position: relative; /* Устанавливаем позиционирование для .rectangle */
+    position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-  }
-  
-  .equation {
+}
+
+.equation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 350px;
+    margin-bottom: 20px;
+}
+
+.equation {
+    width: 300px;
     height: 100px;
     background-color: #ffffff;
-    margin-right: 20px; /* Добавляем отступ справа для .equation */
-    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .checkbox {
+}
+
+.checkbox {
     background-color: #ffffff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-left: 40px;
-  }
+    margin-left: 30px;
 
-  
+}
+
+.answer-container {
+    display: flex;
+    align-items: center;
+}
+
+.answer-input {
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+}
