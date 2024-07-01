@@ -8,6 +8,7 @@
   }
   
   .text {
+    color: #2a413d;
     font-size: 40px;
     margin-bottom: 40px; /* Добавляем отступ снизу для текста */
     font-family: "Rubik", sans-serif;
@@ -18,8 +19,26 @@
   .rectangle {
     width: 600px;
     height: 400px;
-    background-color: #949494;
+    background-color: #b0c2bf;
+    position: relative; /* Устанавливаем позиционирование для .rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
   }
-{
-    
+  
+  .equation {
+    width: 350px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-right: 20px; /* Добавляем отступ справа для .equation */
+    border-radius: 4px;
+  }
+  
+  .checkbox {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 40px;
   }
