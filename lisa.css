@@ -5,17 +5,25 @@
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: #dfe7e6;
   }
   
-  .text {
+  .text, .text2{
     color: #2a413d;
     font-size: 40px;
-    margin-bottom: 40px; /* Добавляем отступ снизу для текста */
     font-family: "Rubik", sans-serif;
+  }
+  .text{
+    margin-bottom: 40px; /* Добавляем отступ снизу для текста */
     font-optical-sizing: auto;
     font-style: normal;
   }
   
+  .text2 {
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
   .rectangle {
     width: 600px;
     height: 400px;
@@ -33,6 +41,9 @@
     background-color: #ffffff;
     margin-right: 20px; /* Добавляем отступ справа для .equation */
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .checkbox {
@@ -42,3 +53,5 @@
     border-radius: 50%;
     margin-left: 40px;
   }
+
+  
